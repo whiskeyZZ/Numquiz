@@ -17,13 +17,14 @@ class Numquiz:
 
         window = tk.Tk()
         window.geometry("700x500")
-        self.question_lbl = tk.Label(window, wraplength=400)
-        self.question_lbl.pack()
+        window.configure(background="black")
+        self.question_lbl = tk.Label(window, wraplength=400, font=("Arial", 22), fg="white", bg="black")
+        self.question_lbl.pack(pady=20)
 
         self.entry = tk.Entry(window, font=("Helvetica", 36))
-        self.entry.pack()
+        self.entry.pack(pady=20)
 
-        self.button = tk.Button(window, text="Antwort", command=lambda: self.set_question(False))
+        self.button = tk.Button(window, text="Antwort", bg="cornflower blue", fg="white",font=("Arial", 20) ,command=lambda: self.set_question(False))
         self.button.pack()
 
         self.set_question(True)
@@ -36,9 +37,11 @@ class Numquiz:
                 self.question = self.quest[self.i]["question"]
                 self.answer =  self.quest[self.i]["answer"]
                 self.question_lbl.config(text=self.question)
+                self.entry.delete(0, tk.END)
                 self.i += 1
             else:
                 self.question_lbl.config(text="Alles Richtig!")
+                self.entry.delete(0, tk.END)
 
 
 if __name__ == "__main__":

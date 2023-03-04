@@ -1,10 +1,10 @@
 [
     {
-        "question": "Was ist java.size()?",
+        "question": "Java ist überall. Aber was ist Java.size()?",
         "answer": "128297"
     },
     {
-        "question": "Die ersten Worte von Amir, einem kleinen Jungen aus der Türkei, freuten seinen Vater sehr",
+        "question": "Das erste Wort von Amir, einem kleinen Jungen aus der Türkei, freute seinen Vater sehr",
         "answer": "47802"
     },
     {
@@ -14,5 +14,26 @@
     {
         "question": "Die Antwort auf alles ist offensichtlich. Nur die Frage gibt Rätsel auf",
         "answer": "42"
+    },
+    {
+        "question": "Der für sein kulinarisches Interesse bekannte Professor Teaspon war im Castle of Birmingham zum dinieren geladen. Auf die Frage, wie viele Stücke vom Fasan er wünsche, antwortete er: 'Oh I am on diet right now. Just eight little bits.'",
+        "answer": "255"
+    },
+    {
+        "question": "Alfredo, der mathematisch begabte weiße Hai, grübelte lange darüber, ob es wohl einen Zahlencode gibt, der ihn beschreibt.",
+        "answer": "255255255"
+    },
+    {
+        "question": "UFC 3000, der Ultraschnelle Supercomputer, hat nur Nullen und Einsen im Kopf, davon aber jede Menge. In einsamen Nächten fragt er sich manchmal, auf welcher Basis sein Denken wohl beruhen mag.",
+        "answer": "2"
+    },
+    {
+        "question": "Junior Developer Hearthfire insistiert darauf, dass sich die Fließkommazahl 3,141 ohne Nebenwirkungen in einen Integer casten lässt. Seine Kollegin Frau Pandapaw hingegen sieht die Verluste schon kommen.",
+        "answer": "141"
+    },
+    {
+        "question": "Paul der Oktopus und Sophia der Kalmar streiten sich darüber, ob das Oktal- oder das Dezimal-System das einzig wahre Zahlensystem ist. Luidia senegalensis, auch als Seestern Francesco bekannt, wohnt dem Streit bei und hat zu dem Thema eine ganz eigene Meinung.",
+        "answer": "9"
     }
+
 ]
